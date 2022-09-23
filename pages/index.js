@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import ContactUs from "../components/ContactUs";
 import styles from "../styles/Home.module.css";
 
@@ -7,10 +6,10 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Sendgrid Contact Form</title>
+        <title>Hej Ulf!</title>
         <meta
           name="description"
-          content="A working contact form with Sendgrid integration and form validations."
+          content="En enkel webbsida som hjälper dig att skicka ett klagomål till IMY"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
