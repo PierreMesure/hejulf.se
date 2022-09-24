@@ -104,13 +104,13 @@ export default function ContactUs() {
             Hur som helst, har du fått ett <b className="font-bold">SMS</b>, ett <b className="font-bold">mejl</b> eller ett <b className="font-bold">brev</b> med en <b className="font-bold">personlig hälsning</b> från <b className="font-bold">Ulf Kristersson</b> nyligen?
           </p>
           <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
-            Oavsett om du hade gett ditt samtycke eller inte har Moderaterna mest sannolikt brytit mot <b className="font-bold">Europas dataskyddsförordning (GDPR)</b> för att skapa och skicka videon till dig.
+            Oavsett om du hade gett ditt samtycke eller inte har Moderaterna mest sannolikt brutit mot <b className="font-bold">Europas dataskyddsförordning (GDPR)</b> för att skapa och skicka videon till dig.
           </p>
           <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
              På denna webbsida kan du skicka ett <b className="font-bold">klagomål</b> till <b className="font-bold">Integritetsskyddsmyndigheten</b> så de utreder om du och andra har drabbats.
           </p>
           <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
-             Detta kommer förhoppningsvis leda till att myndigheten utreder händelsen och förtydliggör vad politiska partier kan göra under en valrörelse. De skulle även kunna bestämma att straffa Moderaterna med böter och kompensera dig.
+             Detta kommer förhoppningsvis leda till att myndigheten utreder händelsen och tydliggör vad politiska partier kan göra under en valrörelse. De skulle även kunna bestämma att straffa Moderaterna med böter och kompensera dig.
           </p>
         </div>
         <form
@@ -274,7 +274,7 @@ export default function ContactUs() {
             Detta betyder alltså för dig som är registrerad moderat och fick (och kanske älskade) den videon att ditt parti kan ha avslöjat till utländska aktörer att du är medlem hos dem. Även om du hade ursprungligen gett ditt samtycke var detta inte ordentligt beskrivit i Moderaternas personuppgiftspolicy så du har rätt att skicka ett klagomål.
           </p>
           <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
-            Det finns olika nyanser beroende på hur du fick videohälsningen. Jag förklara alla situationer i klagomålets text som du kan läsa i sin helhet <a className="underline" href="./beskrivning-klagomal.pdf" target="_blank" rel="noreferrer">här</a>.
+            Det finns olika nyanser beroende på hur du fick videohälsningen. Jag förklarar alla situationer i klagomålets text som du kan läsa i sin helhet <a className="underline" href="./beskrivning-klagomal.pdf" target="_blank" rel="noreferrer">här</a>.
           </p>
         </div>
       </section>
@@ -287,7 +287,7 @@ export default function ContactUs() {
             Moderaterna var inte det enda partiet som skickade oönskad reklam under valrörelsen. Medierna rapporterade att även KD och SD gjorde det (<a className="underline" href="https://www.resume.se/alla-nyheter/nyheter/raseri-mot-mass-sms-en-m-och-sd-foljer-kd-s-spar/" target="_blank" rel="noreferrer">resume.se</a>).
           </p>
           <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
-            Tittar man lite längre bak i tiden fick Socialdemokraterna kritik för kampanjer <a className="underline" href="https://www.svt.se/nyheter/inrikes/s-skickade-ut-mass-sms-nu-anmals-partiet" target="_blank" rel="noreferrer">i 2018 och 2019</a>. Och Centerpartier redan <a className="underline" href="https://www.aftonbladet.se/nyheter/a/6noRXz/unga-sura-over-centerns-mass-sms" target="_blank" rel="noreferrer">2010</a>.
+            Tittar man lite längre bak i tiden fick Socialdemokraterna kritik för kampanjer <a className="underline" href="https://www.svt.se/nyheter/inrikes/s-skickade-ut-mass-sms-nu-anmals-partiet" target="_blank" rel="noreferrer"> 2018 och 2019</a>. Och Centerpartiet redan <a className="underline" href="https://www.aftonbladet.se/nyheter/a/6noRXz/unga-sura-over-centerns-mass-sms" target="_blank" rel="noreferrer">2010</a>.
           </p>
           <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
             Dessa andra partier har dock inte skickat anpassat innehåll eller skapat personligt material. Därför är Moderaterna ett mer intressant exempel.
