@@ -208,7 +208,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="fullname"
-            className="text-gray-500 font-light mt-8 dark:text-gray-50"
+            className="text-500 font-light mt-8 dark:text-gray-50"
           >
             Namn<span className="text-red-500 dark:text-gray-50">*</span>
           </label>
@@ -227,7 +227,7 @@ export default function ContactUs() {
           <div className="mt-6">
             <label
             htmlFor="mia"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               {jagFick + title["mia"]}
             </label>
@@ -244,7 +244,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="utlandssvensk"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               {jagFick + title["utlandssvensk"]}
             </label>
@@ -261,7 +261,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="tipsad"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               {jagFick + title["tipsad"]}
             </label>
@@ -278,7 +278,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="medlem"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               {jagFick + title["medlem"]}
             </label>
@@ -295,7 +295,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="sjalv"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               {jagFick + title["sjalv"]}
             </label>
@@ -315,7 +315,7 @@ export default function ContactUs() {
           <div className="mt-5">
             <label
             htmlFor="delegera"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4 dark:text-gray-50"
             >
               Jag föredrar att du står som kontaktperson för uppföljningen.
             </label>
