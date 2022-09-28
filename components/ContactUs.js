@@ -421,7 +421,7 @@ export default function ContactUs() {
       <section>
         <div className="mx-10 m-5">
           <p className="m-5 text-m text-gray-700 mt-0 font-light dark:text-gray-200 italic">
-            Denna webbsida togs fram av <a className="underline" href="https://www.linkedin.com/in/pierremesure/" target="_blank" rel="noreferrer">Pierre Mesure</a> och publiceras som <a className="underline" href="http://github.com/PierreMesure/hejulf.se" target="_blank" rel="noreferrer">öppen källkod</a> (CC-BY 4.0).
+            Denna webbsida togs fram av <a className="underline" href="https://www.linkedin.com/in/pierremesure/" target="_blank" rel="noreferrer">Pierre Mesure</a> och publiceras som <a className="underline" href="http://github.com/PierreMesure/hejulf.se" target="_blank" rel="noreferrer">öppen källkod</a> ❤️ (AGPLv3). Den hostas stolt i Sverige 🇸🇪 av <a className="underline" href="https://statichost.eu" target="_blank" rel="noreferrer">statichost.eu</a>.
           </p>
         </div>
       </section>
