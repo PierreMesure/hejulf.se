@@ -9,7 +9,7 @@ export default function Home() {
         <title>Hej Ulf!</title>
         <meta
           name="description"
-          content="En enkel webbsida som hjälper dig att skicka ett klagomål till IMY"
+          content="Har du fått ett SMS från Ulf Kristersson?"
         />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:image" content="/ulf-mozaic.jpg" />
