@@ -44,7 +44,7 @@ export default function ContactUs() {
     controls: true,
     fluid: true,
     sources: [{
-      src: 'https://video.seen.io/API-moderaterna-stockholm/result/Solna-Pierre/Solna-Pierre_index.m3u8'
+      src: 'hejulf.mp4'
     }]
   }
 
@@ -177,40 +177,40 @@ export default function ContactUs() {
   };
   return (
     <main>
-      <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 lg:px-40 md:h-100">
+      <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 lg:px-40">
         <div className="mx-auto m-5">
-          <h1 className="text-6xl font-bold mt-4 dark:text-gray-50 text-gray-700">
+          <h1 className="text-6xl font-bold mt-4 text-gray-700">
             Hej Ulf! 👋🏼
           </h1>
-          <h2 className="text-2xl font-bold mt-4 dark:text-gray-50 text-gray-700">
+          <h2 className="text-2xl font-bold mt-4 text-gray-700">
             Eller heter du något annat?
           </h2>
-          <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
+          <p className="text-xl text-gray-700 mt-4 font-light">
             Hur som helst, har du fått ett <b className="font-bold">SMS</b> 💬, ett <b className="font-bold">mejl</b> 📧 eller ett <b className="font-bold">brev</b> ✉️ med en <b className="font-bold">personlig hälsning</b> från <b className="font-bold">Ulf Kristersson</b> nyligen?
           </p>
-          <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
+          <p className="text-xl text-gray-700 mt-4 font-light">
             Oavsett om du hade gett ditt samtycke eller inte har Moderaterna mest sannolikt brutit mot <b className="font-bold">Europas dataskyddsförordning (GDPR)</b> 🇪🇺 för att skapa och skicka videon till dig.
           </p>
-          <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
+          <p className="text-xl text-gray-700 mt-4 font-light">
              På denna webbsida kan du skicka ett <b className="font-bold">klagomål</b> till <b className="font-bold">Integritetsskyddsmyndigheten</b> så de utreder om du och andra har drabbats.
           </p>
-          <p className="text-xl text-gray-700 mt-4 font-light dark:text-gray-200">
+          <p className="text-xl text-gray-700 mt-4 font-light">
              Detta kommer förhoppningsvis leda till att myndigheten tydliggör vad politiska partier kan göra under en valrörelse. De kan även ta ut en <a className="underline" href="https://www.imy.se/om-oss/vart-uppdrag/sa-arbetar-vi-med-tillsyn/vad-kan-tillsynen-leda-till/" target="_blank" rel="noreferrer">sanktionsavgift</a>.
           </p>
         </div>
         <form
           onSubmit={handleSubmit}
-          className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500"
+          className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white"
         >
-          <h1 className="text-2xl font-bold dark:text-gray-50">
+          <h1 className="text-2xl font-bold">
             Skicka ett klagomål
           </h1>
 
           <label
             htmlFor="fullname"
-            className="text-500 font-light mt-8 dark:text-gray-50"
+            className="text-500 font-light mt-8"
           >
-            Namn<span className="text-red-500 dark:text-gray-50">*</span>
+            Namn<span className="text-red-500">*</span>
           </label>
           <input
             type="text"
@@ -227,7 +227,7 @@ export default function ContactUs() {
           <div className="mt-6">
             <label
             htmlFor="mia"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               {jagFick + title["mia"]}
             </label>
@@ -244,7 +244,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="utlandssvensk"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               {jagFick + title["utlandssvensk"]}
             </label>
@@ -261,7 +261,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="tipsad"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               {jagFick + title["tipsad"]}
             </label>
@@ -278,7 +278,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="medlem"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               {jagFick + title["medlem"]}
             </label>
@@ -295,7 +295,7 @@ export default function ContactUs() {
           <div className="mt-1">
             <label
             htmlFor="sjalv"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               {jagFick + title["sjalv"]}
             </label>
@@ -315,7 +315,7 @@ export default function ContactUs() {
           <div className="mt-5">
             <label
             htmlFor="delegera"
-            className="text-500 font-light mt-4 dark:text-gray-50"
+            className="text-500 font-light mt-4"
             >
               Jag föredrar att du står som kontaktperson för uppföljningen.
             </label>
@@ -357,8 +357,8 @@ export default function ContactUs() {
           Vad är det som Moderaterna gör fel?
         </h1>
         <div className="mx-10 m-5">
-          <p className="m-5 text-xl text-gray-700 font-light dark:text-gray-200">
-            Moderaterna samlade person- och kontaktuppgifter till flera hundratusentals människor under valrörelsen. De skapade och skickade personliga videohälsningar till dessa personer, oftast utan deras samtycke. Jag fick till exempel denna video som innehåller både mitt namn och min kommun.
+          <p className="m-5 text-xl text-gray-700 font-light">
+            Moderaterna samlade person- och kontaktuppgifter till flera hundratusentals människor under valrörelsen. De skapade och skickade personliga videohälsningar till dessa personer, oftast utan deras samtycke. Jag fick till exempel en video som innehåller både mitt namn och min kommun. Nedan kan du se ett urval av Ulf Kristerssons hälsningar:
           </p>
 
           <div className="sm:mx-10 md:mx-20 lg:mx-80 my-5">
@@ -366,16 +366,16 @@ export default function ContactUs() {
           </div>
 
 
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             I Sverige finns det ett regelverk som heter dataskyddsförordningen. Den beskriver bl.a. att en organisation måste ha en rättslig grund för att behandla personuppgifter. I detta fall hävdar jag att Moderaterna saknar en rättslig grund.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Regelverket säger även att den personuppgiftsansvariga måste förklara för användaren (dig) hur personuppgifterna behandlas och med vilka underleverantörer. Här finns det också en del brister. Moderaterna och deras underleverantör Seen.io som skapade och lagrar videohälsningar glömde att nämna flera typer av personuppgifter som sparas och åtminstone en underleverantör som möjliggör insamlingen. De deklarerar även att personuppgifterna lagras på europeisk mark. Vad jag kan se stämmer det tyvärr inte. I flera fall lagras de i USA, vilket betyder att de kan avlyssnats av amerikanska övervakningsmyndigheter.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Detta betyder alltså för dig som är registrerad moderat och fick (och kanske älskade) den videon att ditt parti kan ha avslöjat till utländska aktörer att du är medlem hos dem. Även om du hade ursprungligen gett ditt samtycke var detta inte ordentligt beskrivit i Moderaternas personuppgiftspolicy så du har rätt att skicka ett klagomål.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Det finns olika nyanser beroende på hur du fick videohälsningen. Jag förklarar alla situationer i klagomålets text som du kan läsa i sin helhet <a className="underline" href="./beskrivning-klagomal.pdf" target="_blank" rel="noreferrer">här</a>.
           </p>
         </div>
@@ -385,16 +385,16 @@ export default function ContactUs() {
           Är det bara Moderaterna som gör fel?
         </h1>
         <div className="mx-10 m-5">
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Moderaterna var inte det enda partiet som skickade oönskad reklam under valrörelsen. Medierna rapporterade att även KD och SD gjorde det (<a className="underline" href="https://www.resume.se/alla-nyheter/nyheter/raseri-mot-mass-sms-en-m-och-sd-foljer-kd-s-spar/" target="_blank" rel="noreferrer">resume.se</a>).
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Tittar man lite längre bak i tiden fick Socialdemokraterna kritik för kampanjer <a className="underline" href="https://www.svt.se/nyheter/inrikes/s-skickade-ut-mass-sms-nu-anmals-partiet" target="_blank" rel="noreferrer"> 2018 och 2019</a>. Och Centerpartiet redan <a className="underline" href="https://www.aftonbladet.se/nyheter/a/6noRXz/unga-sura-over-centerns-mass-sms" target="_blank" rel="noreferrer">2010</a>.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Dessa andra partier har dock inte skickat anpassat innehåll eller skapat personligt material. Därför är Moderaterna ett mer intressant exempel.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Med detta klagomål hoppas jag att Integritetsskyddsmyndigheten utreder situationen av (riktade) reklamkampanjer under valrörelsen och återkommer med generella riktlinjer för de kommande valen.
           </p>
         </div>
@@ -404,23 +404,23 @@ export default function ContactUs() {
           Hur funkar denna webbsida?
         </h1>
         <div className="mx-10 m-5">
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Syftet med denna sida är enbart att förklara problemen med Moderaternas kampanj och sänka tröskeln för att enskilda medborgare som har fått en personlig hälsning ska kunna skicka ett klagomål.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Vem som helst kan idag skicka ett klagomål men processen är inte helt okomplicerad. Dessutom finns det en större chans att Integritetsskyddsmyndigheten utreder situationen djupare om de får ett större antal klagomål.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Till skillnad från Moderaterna sparar denna webbsida inga personuppgifter om dig. Inte ens antalet besökare sparas. När du trycker på knappen för att skicka används din enhets e-postapp. Det enda webbsidan gör är att skicka en mall för e-postet vidare till appen.
           </p>
-          <p className="m-5 text-xl text-gray-700 mt-0 font-light dark:text-gray-200">
+          <p className="m-5 text-xl text-gray-700 mt-0 font-light">
             Du kan såklart redigera e-postets text innan du skickar det och lägga till detaljer, skärmbilder...
           </p>
         </div>
       </section>
       <section>
         <div className="mx-10 m-5">
-          <p className="m-5 text-m text-gray-700 mt-0 font-light dark:text-gray-200 italic">
+          <p className="m-5 text-m text-gray-700 mt-0 font-light italic">
             Denna webbsida togs fram av <a className="underline" href="https://www.linkedin.com/in/pierremesure/" target="_blank" rel="noreferrer">Pierre Mesure</a> och publiceras som <a className="underline" href="http://github.com/PierreMesure/hejulf.se" target="_blank" rel="noreferrer">öppen källkod</a> ❤️ (AGPLv3). Den hostas stolt i EU 🇪🇺 av <a className="underline" href="https://statichost.eu" target="_blank" rel="noreferrer">statichost.eu</a>.
           </p>
         </div>
